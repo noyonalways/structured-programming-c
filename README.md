@@ -1,5 +1,13 @@
 # Structured Programming in C
 
+![Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Standard](https://img.shields.io/badge/Standard-C99-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Course](https://img.shields.io/badge/Course-Structured%20Programming-2EA44F?style=for-the-badge)
+![Level](https://img.shields.io/badge/Level-1st%20Year%20%7C%201st%20Sem-0A66C2?style=for-the-badge)
+![University](https://img.shields.io/badge/University-National%20University%20BD-6F42C1?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Learning-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Educational-lightgrey?style=for-the-badge)
+
 Notes, practice programs, and chapter-wise exercises for **Structured Programming Language (C)** — BSc (Hons) in CSE, 1st Year, 1st Semester, National University of Bangladesh.
 
 ## About
@@ -26,20 +34,20 @@ This repository is my personal learning log for the Structured Programming cours
 structured-programming-c/
 ├── README.md
 ├── .gitignore
+├── programs/                   # Standalone C practice programs
 ├── notes/                      # Written notes (Markdown)
-├── practices/                  # C practice programs (by chapter)
+├── practices/                  # Chapter-linked practice programs
 │   ├── chapter-01/
-│   ├── chapter-02/
 │   └── ...
-└── chapters/                   # Chapter notes + examples
+└── chapters/                   # Chapter notes + class examples
     ├── chapter-01/
-    ├── chapter-02/
     └── ...
 ```
 
 Where to put files:
 
-- `practices/chapter-XX/*.c` — your practice and exercise programs
+- `programs/*.c` — general practice programs (not tied to a chapter)
+- `practices/chapter-XX/*.c` — chapter-linked exercises
 - `chapters/chapter-XX/notes.md` — chapter summary
 - `chapters/chapter-XX/*.c` — examples from the textbook / class
 
