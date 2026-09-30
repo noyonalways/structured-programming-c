@@ -1,0 +1,102 @@
+# Compiled object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+a.out
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dependency files
+*.d
+*.dep
+
+# Core dumps
+core
+core.*
+
+# Temporary / backup
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.cproject
+.project
+.settings/
+.vs/
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# GCC / Clang coverage & profiling
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Local notes you may not want public
+*.local
+.env
+.env.*
